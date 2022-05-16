@@ -1,0 +1,17 @@
+name: Build and deploy to GitHub Pages 🚀
+
+on:
+  push:
+    branches: main
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ashkantaravati/NuxtToGithubPages@v1.0
+        with:
+          username: 'AmandaMartinsDev' # Your GitHub username
+          reponame: 'cool-links' # Your repo name
+          token: ${{ secrets.GITHUB_TOKEN }}
