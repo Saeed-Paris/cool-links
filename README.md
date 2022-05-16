@@ -86,7 +86,7 @@ Feel free to open an issue if you found a bug or have a suggestion, so we can di
 
 ## 🛠️ Contribute
 
-You're welcome to contribute improving this project, just create your pull request, and wait for the review.
+You're welcome to contribute to this project, just create your pull request, and wait for the review.
 
 ## 📜 License
 
